@@ -16,7 +16,6 @@
                             <p>{{description}}</p>
                             Cantidad: {{quantity}}
                             Precio: ${{price}}
-
                         </div>
                         <div class="col-lg-6">
                             <div class="card-body">
@@ -48,7 +47,7 @@ export default {
     data() {
         return {
             key: 'Bearer TEST-7167826183432752-030315-c7dcbaade969a223cb2e6c0622e653ca-282365244',
-            price: 10000,
+            price: 30000,
             quantity: 1,
             description: 'Es muy bonita comprela',
             title: 'Polera de la Seleccion Chilena',
